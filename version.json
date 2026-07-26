@@ -1,6 +1,6 @@
 {
-  "versionCode": 9,
-  "versionName": "1.8",
-  "apkUrl": "https://github.com/s-ricci/rroverdrive/releases/download/v1.8/RogueRushOverdrive.apk",
-  "notes": "Aggiornamento automatico dal gioco.\nRiequilibrio della difficolta della 1.7: i nemici fanno male anche nei settori alti."
+  "versionCode": 10,
+  "versionName": "1.9",
+  "apkUrl": "https://github.com/s-ricci/rroverdrive/releases/download/v1.9/RogueRushOverdrive.apk",
+  "notes": "Ritmo ritrovato: piu nemici, che fanno meno male ciascuno.\nNuclei equipaggiabili, Livelli di Minaccia, sfida settimanale, due boss nuovi e livree."
 }

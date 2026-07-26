@@ -39,3 +39,24 @@ presente: finché si compila dalla stessa installazione di Unity va bene, ma
 cambiando macchina o versione dell'editor la chiave cambia e l'aggiornamento
 verrebbe rifiutato. Per un canale duraturo serve un keystore dedicato, tenuto
 fuori da questo repository — il passaggio richiede una disinstallazione manuale.
+
+## Play Store
+
+Questo canale resta il ramo **beta**. Per il ramo pubblico:
+
+1. Account sviluppatore Google Play (25 € una tantum).
+2. Creare un keystore di caricamento (fuori dal repository) e configurarlo in
+   `PlayerSettings` con `androidUseCustomKeystore`.
+3. Build dell'App Bundle: `-executeMethod RogueRush.EditorTools.ApkBuilder.BuildAab`
+   (lo store rifiuta gli APK per le app nuove).
+4. Creare i prodotti in Play Console con esattamente gli id di
+   `Assets/Scripts/PurchaseProvider.cs`:
+   `rr_overdrive_edition` e `rr_coin_doubler` (non consumabili),
+   `rr_coin_pack_5000` (consumabile).
+5. Installare il package *In App Purchasing*, scrivere `UnityIapProvider`
+   implementando `IPurchaseProvider` e assegnarlo a `Purchases.Active`.
+   Il ripristino acquisti deve richiamare `Purchases.ApplyOwned` per ogni
+   prodotto non consumabile posseduto.
+
+Gli acquisti in-app **non funzionano** su un APK installato di lato: il billing
+di Google richiede che l'app arrivi dallo store.
