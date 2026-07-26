@@ -1,6 +1,6 @@
 {
-  "versionCode": 10,
-  "versionName": "1.9",
-  "apkUrl": "https://github.com/s-ricci/rroverdrive/releases/download/v1.9/RogueRushOverdrive.apk",
-  "notes": "Ritmo ritrovato: piu nemici, che fanno meno male ciascuno.\nNuclei equipaggiabili, Livelli di Minaccia, sfida settimanale, due boss nuovi e livree."
+  "versionCode": 11,
+  "versionName": "2.0",
+  "apkUrl": "https://github.com/s-ricci/rroverdrive/releases/download/v2.0/RogueRushOverdrive.apk",
+  "notes": "Economia rifatta: i potenziamenti permanenti erano irraggiungibili (il livello 19 costava 320 milioni), ora il tetto di 20 significa qualcosa.\nMenu principale riordinato e livree tutte visibili."
 }
