@@ -1,6 +1,6 @@
 {
-  "versionCode": 12,
-  "versionName": "2.1",
-  "apkUrl": "https://github.com/s-ricci/rroverdrive/releases/download/v2.1/RogueRushOverdrive.apk",
-  "notes": "Interfaccia rifatta sui mockup: pannelli, carte e pulsanti sono riquadri scuri con bordo al neon, i titoli hanno l'alone e in ogni schermata l'azione principale e' l'unico pulsante pieno.\nLa schermata di preparazione ora ha le fasce separate ed etichettate: personaggio, settore, difficolta', mutatori, nuclei."
+  "versionCode": 13,
+  "versionName": "2.2",
+  "apkUrl": "https://github.com/s-ricci/rroverdrive/releases/download/v2.2/RogueRushOverdrive.apk",
+  "notes": "Riquadri dell'interfaccia finalmente nitidi: nella 2.1 gli angoli arrivavano a schermo stirati dieci volte, gonfi e sfocati.\nOra raggio piccolo, bordo netto e titoli piu' definiti, come nei mockup."
 }
